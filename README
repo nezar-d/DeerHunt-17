@@ -1,0 +1,45 @@
+Username: Student
+Password: student
+Keyring:  student
+
+Compiler Commands:
+	Retro World:
+		B:
+			gbc <Input File>
+		NASM:
+			nasm -f elf64 <Input file>
+			ld -o <Output File> <Input File.o>
+			./<Output File>
+		Cobol:
+			cobc -free -x -o <Output File> <Input File>
+			./<Output File>
+		Fortran:
+			gfortran -c <Input File>
+			gfortran -o <Output File> <Input File.o>
+			./<Output File>
+		Algol:
+			a68g <Input File>
+	Fresh World:
+		Lua:
+			lua <Input File>
+		Scala:
+			scalac <Input File>
+			scala <Main Class Name>
+		Clojure:
+			clojure <Input File>
+		Elm:
+			elm-run <Input File>
+		Rust:
+			rustc <Input File>
+			./<Input File no extension>
+	Corrupt World:
+		Brainfuck:
+			beef <Input File>
+		Befunge:
+			cfunge <Input File>
+		Piet:
+			fpiet <Input File>
+		Blarb:
+			blarb <Input File>
+		Whitespace:
+			whitespace <Input File>
